@@ -1,0 +1,55 @@
+<resources>
+    <string name="version_code">V 1.0</string>
+    <string name="app_name">9 Videos</string>
+    <string name="banner_title1">Video</string>
+    <string name="banner_title2">Picture</string>
+    <string name="banner_title3">Hot</string>
+    <string name="banner_title4">My Favourite</string>
+
+    <string name="indicator_skip">Skip</string>
+    <string name="indicator_finish">Finish</string>
+    <!--nav text-->
+    <string name="nav_text_home">Home</string>
+    <string name="nav_text_chuanyue">Time travel</string>
+    <string name="nav_text_share">Share this app</string>
+    <string name="nav_text_comment">Rate us</string>
+    <string name="nav_text_feedback">Feedback</string>
+    <string name="nav_text_about">About</string>
+
+    <string name="feedback_subject">Advice For 9 Videos</string>
+    <string name="feedback_body">Thanks for giving us advice. Please write down your advice below, we will read it carefully.</string>
+    <string name="chose_email_client">Choose Email Client</string>
+    <string name="share_to_friends_text">There are many funny videos for your to share, your Whatsapp will never be boring, download this app:</string>
+    <string name="toolbar_title_mainactivity">MainActivity</string>
+    <string name="chose_share_client">Share This App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="share_count">%1$s shares</string>
+    <string name="no_internet">No Internet connection.</string>
+    <string name="no_internet_toast">No Internet connection.Please refresh!</string>
+    <string name="refresh">Refresh</string>
+
+    <!--rate dialog-->
+    <string name="rate_play">Rate 5 Stars</string>
+    <string name="rating_bar_about_msg">"You've experienced 9 Videos successfully. Does that deserve a 5-star?"</string>
+    <string name="rating_bar_btn">GO</string>
+    <string name="no_browser">We did not find a browser on your device.</string>
+
+    <string name="hint_no_chuanyue_num">You have watched all 9 videos, be right back tomorrow. Share the videos, get more chances to time travel.</string>
+    <string name="play_before_share">You need to play the video before sharing</string>
+    <string name="no_find_whatsapp">We did not find the Whatsapp on your device</string>
+
+    <string name="tv_recycler_foot">No more</string>
+    <string name="tv_recycler_foot1">come back tommorrow</string>
+
+    <string name="tv_how_many_people_see">%1$s people have watched 9videos</string>
+    <string name="tv_share_to_whatsapp" translatable="false">share to whatsapp</string>
+    <string name="nav_about" translatable="false">About</string>
+    <string name="ok" translatable="false">ok</string>
+    <string name="imageContentDescription" translatable="false">contentDescription</string>
+    <string name="version" translatable="false">version:%1$s</string>
+    <string name="about_privacy_terms" translatable="false"><![CDATA[Privacy & Terms]]></string>
+
+    <string name="four_rate_play">Please tell us about your 9 Videos problem or suggestion</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="12dp"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_recycler_foot1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:drawableLeft="@drawable/icon_no_more"
+        android:drawablePadding="@dimen/recycler_foot_drawable_padding"
+        android:textSize="@dimen/tv_recycler_foot"
+        android:textColor="@color/ratebar_title"
+        android:text="@string/tv_recycler_foot"/>
+    <TextView
+        android:id="@+id/tv_recycler_foot2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:layout_marginTop="12dp"
+        android:drawableRight="@drawable/icon_come_back"
+        android:drawablePadding="@dimen/recycler_foot_drawable_padding"
+        android:textSize="@dimen/tv_recycler_foot"
+        android:textColor="@color/ratebar_title"
+        android:text="@string/tv_recycler_foot1"/>
+</LinearLayout>

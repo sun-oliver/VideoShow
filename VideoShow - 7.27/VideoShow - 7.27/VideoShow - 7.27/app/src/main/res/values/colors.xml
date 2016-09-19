@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4194E2</color>
+    <color name="windowBackground">#EEEEEE</color>
+    <color name="colorPrimaryDark">#4194E2</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="toolbar_background">#4194E2</color>
+    <color name="nav_text">#df000000</color>
+    <color name="pb_circle">#4194E2</color>
+    <color name="pb_circle_background">#68000000</color>
+    <color name="ratebar_title">#8a000000</color>
+
+    <color name="video_see_num_backgournd">#a1d3fe</color>
+    <color name="video_see_num_textview">#4194e2</color>
+    <color name="video_whatsapp_background">#6ae069</color>
+</resources>

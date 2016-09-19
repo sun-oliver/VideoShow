@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_text_size">20sp</dimen>
+    <dimen name="nav_text_padding_left">16dp</dimen>
+    <dimen name="nav_text_height">56dp</dimen>
+    <dimen name="nav_drawable_img_padding">32dp</dimen>
+
+    <dimen name="video_min_height">200dp</dimen>
+    <dimen name="video_btn_background_width_height">72dp</dimen>
+    <dimen name="video_btn_width_height">72dp</dimen>
+    <dimen name="video_play_pause">72dp</dimen>
+    <dimen name="video_tv_how_many_people_see">12sp</dimen>
+    <dimen name="video_tv_share_to_whatsapp">14sp</dimen>
+    <dimen name="video_default_background_width_height">128dp</dimen>
+
+    <dimen name="no_internet_textsize">20dp</dimen>
+    <dimen name="no_internet_refresh_textsize">16dp</dimen>
+
+    <dimen name="tv_recycler_foot">20sp</dimen>
+    <dimen name="recycler_foot_drawable_padding">8sp</dimen>
+    <dimen name="tv_play_share_to_whatsapp">20sp</dimen>
+</resources>

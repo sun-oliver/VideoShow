@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="254dp"
+    android:layout_height="140dp"
+    android:layout_gravity="center"
+    android:background="@drawable/layout_corner4_rectangle_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_comment_tv"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="@string/rate_play"
+        android:textColor="@color/ratebar_title"
+        android:textSize="12sp" />
+
+    <!--<RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/commentRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:rating="5"
+        android:stepSize="1" />-->
+    <com.helloworld.videoshow.view.SmileBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        app:smileWidth="36dp"
+        app:smileHeight="36dp"
+        app:rating="5"
+        app:horizontalSpacing="12dp"/>
+
+    <Button
+        android:id="@+id/btn_go_comment"
+        android:layout_width="160dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/layout_corner4_rectangle_blue"
+        android:text="@string/rating_bar_btn"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+</LinearLayout>

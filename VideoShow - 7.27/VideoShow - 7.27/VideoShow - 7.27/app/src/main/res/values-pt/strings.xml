@@ -1,0 +1,48 @@
+<resources>
+    <string name="version_code">V 1.0</string>
+    <string name="app_name">9 Videos</string>
+    <string name="banner_title1">Video</string>
+    <string name="banner_title2">Picture</string>
+    <string name="banner_title3">Hot</string>
+    <string name="banner_title4">My Favourite</string>
+
+    <string name="indicator_skip">Skip</string>
+    <string name="indicator_finish">Finish</string>
+    <!--nav text-->
+    <string name="nav_text_home">Início</string>
+    <string name="nav_text_chuanyue">Viagem no tempo</string>
+    <string name="nav_text_share">Compartilhar este app</string>
+    <string name="nav_text_comment">Avalie-nos</string>
+    <string name="nav_text_feedback">Comentários</string>
+    <string name="nav_text_about">Quem somos</string>
+
+    <string name="feedback_subject">Comentários 9 Videos</string>
+    <string name="feedback_body">9 Vídeos foi feito para o usuário. Qualquer sugestão ou crítica em relação ao aplicativo, pode ser enviado para video9.fun@gmail.com</string>
+    <string name="chose_email_client">Escolha um cliente de email</string>
+    <string name="share_to_friends_text">Há muitos vídeos engraçados para você compartilhar! Seu grupo nunca mais será o mesmo. Baixe este aplicativo:</string>
+    <string name="toolbar_title_mainactivity">MainActivity</string>
+    <string name="chose_share_client">Compartilhar este app</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="share_count">%1$s compartilhamentos</string>
+    <string name="no_internet">Por favor, conecte-se à internet</string>
+    <string name="no_internet_toast">Por favor, conecte-se à internet. Tente novamente.</string>
+    <string name="refresh">Recarregar</string>
+
+    <!--rate dialog-->
+    <string name="rate_play"> Dê-nos nota máxima</string>
+    <string name="rating_bar_about_msg">"Sua satisfação, nossa maior motivação! Dê-nos nota máxima!"</string>
+    <string name="rating_bar_btn">GO</string>
+    <string name="no_browser">Não encontramos o Navegador no seu aparelho.</string>
+
+    <string name="hint_no_chuanyue_num">Você já assistiu todos os 9 vídeos. Volte novamente amanhã. Compartilhe vídeos e ganhe mais chances.</string>
+    <string name="play_before_share">Para compartilhar este vídeo, você precisa primeiro fazer o download </string>
+    <string name="no_find_whatsapp">Não encontramos o Whatsapp no seu aparelho</string>
+
+    <string name="tv_recycler_foot">Não mais</string>
+    <string name="tv_recycler_foot1">volte amanhã</string>
+
+    <string name="tv_how_many_people_see">%1$s pessoas assistiram 9videos</string>
+    <string name="four_rate_play">Por favor, conte-nos sobre seu 9 Videos problema ou sugestão</string>
+</resources>

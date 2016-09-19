@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "684771062593",
+    "project_id": "firebase-videos"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684771062593:android:5c26371983e0284d",
+        "android_client_info": {
+          "package_name": "com.funny.ninevideos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOupR2n2MH1OeFf1ECclIxdhiqI5P5CYc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-81391915-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

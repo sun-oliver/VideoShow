@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:gravity="center"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_how_many_people_see"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="@string/tv_how_many_people_see"
+        android:textSize="@dimen/video_tv_how_many_people_see"
+        android:textColor="@color/video_see_num_textview"
+        android:background="@color/video_see_num_backgournd"/>
+</LinearLayout>

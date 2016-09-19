@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView_mainlist"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|top" />
+
+            <!--<com.helloworld.videoshow.view.RecyclerviewHeaderFooter
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top">
+                <include layout="@layout/layout_recyclerview_header" />
+            </com.helloworld.videoshow.view.RecyclerviewHeaderFooter>
+
+            <com.helloworld.videoshow.view.RecyclerviewHeaderFooter
+                android:id="@+id/footer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom">
+                <include layout="@layout/layout_recyclerview_footer" />
+            </com.helloworld.videoshow.view.RecyclerviewHeaderFooter>-->
+        </FrameLayout>
+
+    <!--没有网络-->
+    <RelativeLayout
+        android:id="@+id/rl_no_internet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_no_internet"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_video_background_big" />
+
+        <TextView
+            android:id="@+id/tv_no_internet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_no_internet"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/no_internet"
+            android:textSize="@dimen/no_internet_textsize" />
+
+        <Button
+            android:id="@+id/btn_no_internet_refresh"
+            android:layout_width="160dp"
+            android:layout_height="36dp"
+            android:layout_below="@+id/tv_no_internet"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            android:background="@color/toolbar_background"
+            android:text="@string/refresh"
+            android:textColor="@color/white"
+            android:textSize="@dimen/no_internet_refresh_textsize" />
+    </RelativeLayout>
+
+    <!--右下角播放小窗-->
+    <RelativeLayout
+        android:id="@+id/rl_small_layout"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:id="@+id/fl_small_layout_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/iv_layout_small_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+    </RelativeLayout>
+
+    <!--全屏播放窗口-->
+    <FrameLayout
+        android:id="@+id/fl_full_screen_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</RelativeLayout>
+
